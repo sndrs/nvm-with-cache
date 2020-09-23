@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: sndrs/nvm-with-cache@0.1.0
+      - uses: sndrs/nvm-with-cache@0.2.0

@@ -1,8 +1,7 @@
-name: "NVM with cache"
-description: "Use Node version defined in .nvmrc and cached node_modules"
+name: "NVM install"
+description: "Install Node using NVM"
 runs:
   using: "composite"
   steps:
-    - name: Use Node.js
+    - run: nvm install
       shell: bash -l {0}
-      run: nvm install
